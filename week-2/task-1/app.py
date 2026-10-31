@@ -74,7 +74,7 @@ def train_models():
 models, results, roc, cms = train_models()
 
 st.title("🚢 Titanic Survival: Model Comparison")
-st.caption("Logistic Regression vs Decision Tree vs Random Forest | Week 2, Task 1")
+st.caption("Logistic Regression vs Decision Tree vs Random Forest")
 
 tab_predict, tab_compare, tab_about = st.tabs(["🔮 Predict", "📊 Compare models", "ℹ️ About"])
 
